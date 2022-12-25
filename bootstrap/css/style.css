@@ -1,0 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('C:/wamp64/www/battlecodersite/Views/assets/images/battle.png');
+	background-repeat: no-repeat;
+}

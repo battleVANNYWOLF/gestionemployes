@@ -1,0 +1,9 @@
+ CREATE DATABASE projets;
+CREATE TABLE employes (id int Not NULL PRIMARY KEY  AUTO_INCREMENT,
+	idpersonnel int(255) NOT NULL,
+	nom_complet VARCHAR(255) NOT NULL,
+	sexe VARCHAR(255) NOT NULL,
+	poste VARCHAR(255) NOT NULL,
+	adresse VARCHAR(255) NOT NULL,
+	telephone DECIMAL(15) NOT NULL UNIQUE,
+	statut VARCHAR(25) NOT NULL);
